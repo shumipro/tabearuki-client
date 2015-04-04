@@ -1,0 +1,5 @@
+/.idea
+memo.md
+.DS_Store
+.*.un~
+/node_modules
