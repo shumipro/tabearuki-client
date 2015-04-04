@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles/onsen-css-components-blue-basic-theme.css">  
 
   <script src="lib/onsen/js/angular/angular.js"></script>    
+  <script src="lib/onsen/js/angular/angular-resource.js"></script>    
   <script src="lib/onsen/js/onsenui.js"></script>    
   
   <script src="cordova.js"></script>  
@@ -56,18 +57,21 @@
   <ons-navigator var="navi">
     <ons-page>
       <ons-toolbar>
-        <div class="center">Master Details</div>
+        <div class="center">Tabearuki</div>
       </ons-toolbar>
 
       <ons-list ng-controller="MasterController">
         <ons-list-item modifier="chevron" class="item" ng-repeat="item in items" ng-click="showDetail($index)">
+          <div class="list-item-left">
+            <img ng-src="{{ item.image_urls.small_url }}" class="avator">
+          </div>
           <ons-row>
             <ons-col width="60px"> 
               <div class="item-thum"></div>
             </ons-col>
             <ons-col>
               <header>
-                <span class="item-title">{{item.title}}</span>
+                <span class="item-title">{{item.name}}</span>
                 <span class="item-label">{{item.label}}</span>
               </header>
               <p class="item-desc">{{item.desc}}</p>

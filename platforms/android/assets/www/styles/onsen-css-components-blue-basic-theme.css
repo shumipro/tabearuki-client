@@ -14,9 +14,9 @@ body {
 }
 *:not(input):not(textarea):not(select) {
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -ms-touch-action: none;
 }
 * {
@@ -71,8 +71,8 @@ h6 {
   right: 0px;
   bottom: 0px;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   margin-top: -1px;
 }
 .page__background {
@@ -83,8 +83,8 @@ h6 {
   right: 0px;
   bottom: 0px;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .content-padded {
   padding: 8px;
@@ -114,10 +114,10 @@ h6 {
   display: inline-block;
   vertical-align: top;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   position: relative;
   overflow: hidden;
   font-size: 17px;
@@ -153,9 +153,9 @@ h6 {
   top: 0px;
   left: 0px;
   -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+       -o-transition: all 0.2s linear;
+          transition: all 0.2s linear;
 }
 .switch__toggle {
   background-color: #ddd;
@@ -165,64 +165,64 @@ h6 {
   right: 0px;
   bottom: 0px;
   -webkit-border-radius: 30px;
-  border-radius: 30px;
+          border-radius: 30px;
   -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
+     -moz-transition-property: all;
+       -o-transition-property: all;
+          transition-property: all;
   -webkit-transition-duration: 0.35s;
-  -moz-transition-duration: 0.35s;
-  -o-transition-duration: 0.35s;
-  transition-duration: 0.35s;
+     -moz-transition-duration: 0.35s;
+       -o-transition-duration: 0.35s;
+          transition-duration: 0.35s;
   -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+     -moz-transition-timing-function: ease-out;
+       -o-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
 }
 .switch__toggle:before {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   position: absolute;
   content: '';
   -webkit-border-radius: 28px;
-  border-radius: 28px;
+          border-radius: 28px;
   height: 28px;
   width: 28px;
   background-color: #fff;
   left: 2px;
   top: 2px;
   -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
+     -moz-transition-property: all;
+       -o-transition-property: all;
+          transition-property: all;
   -webkit-transition-duration: 0.35s;
-  -moz-transition-duration: 0.35s;
-  -o-transition-duration: 0.35s;
-  transition-duration: 0.35s;
+     -moz-transition-duration: 0.35s;
+       -o-transition-duration: 0.35s;
+          transition-duration: 0.35s;
   -webkit-transition-timing-function: cubic-bezier(0.5, 1.6, 0.5, 1);
-  -moz-transition-timing-function: cubic-bezier(0.5, 1.6, 0.5, 1);
-  -o-transition-timing-function: cubic-bezier(0.5, 1.6, 0.5, 1);
-  transition-timing-function: cubic-bezier(0.5, 1.6, 0.5, 1);
+     -moz-transition-timing-function: cubic-bezier(0.5, 1.6, 0.5, 1);
+       -o-transition-timing-function: cubic-bezier(0.5, 1.6, 0.5, 1);
+          transition-timing-function: cubic-bezier(0.5, 1.6, 0.5, 1);
 }
 .switch__input:checked + .switch__toggle {
   background-color: #5198db;
 }
 .switch__input:checked + .switch__toggle:before {
   -webkit-transform: translateX(18px);
-  -moz-transform: translateX(18px);
-  -ms-transform: translateX(18px);
-  -o-transform: translateX(18px);
-  transform: translateX(18px);
+     -moz-transform: translateX(18px);
+      -ms-transform: translateX(18px);
+       -o-transform: translateX(18px);
+          transform: translateX(18px);
 }
 .switch__input:not(:checked) + .switch__toggle:before {
   -webkit-transform: translateX(0px);
-  -moz-transform: translateX(0px);
-  -ms-transform: translateX(0px);
-  -o-transform: translateX(0px);
-  transform: translateX(0px);
+     -moz-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+       -o-transform: translateX(0px);
+          transform: translateX(0px);
 }
 .switch__input:disabled + .switch__toggle {
   opacity: 0.3;
@@ -271,22 +271,22 @@ h6 {
   border: none;
   line-height: normal;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   vertical-align: top;
   outline: none;
   line-height: 1;
   -webkit-appearance: none;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
   border: none;
   height: 2px;
   -webkit-border-radius: 0;
-  border-radius: 0;
+          border-radius: 0;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+          border-radius: 3px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#ddd));
   background-image: -webkit-linear-gradient(#ddd, #ddd);
   background-image: -moz-linear-gradient(#ddd, #ddd);
@@ -294,7 +294,7 @@ h6 {
   background-image: linear-gradient(#ddd, #ddd);
   background-position: left center;
   -webkit-background-size: 100% 2px;
-  background-size: 100% 2px;
+          background-size: 100% 2px;
   background-repeat: no-repeat;
   overflow: hidden;
   height: 31px;
@@ -319,9 +319,9 @@ h6 {
   background-color: #fff;
   border: 1px solid #ddd;
   -webkit-border-radius: 30px;
-  border-radius: 30px;
+          border-radius: 30px;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   top: 0;
   margin: 0;
   padding: 0;
@@ -370,10 +370,10 @@ h6 {
   font-weight: 400;
   font-size: 17px;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   white-space: nowrap;
   overflow: hidden;
   word-spacing: 0;
@@ -386,9 +386,9 @@ h6 {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   z-index: 2;
   display: block;
   height: 44px;
@@ -397,7 +397,7 @@ h6 {
   background: #fff;
   color: #1f1f21;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border-bottom: 1px solid #ddd;
   font-weight: 400;
   width: 100%;
@@ -408,7 +408,7 @@ h6 {
   .navigation-bar {
     border-bottom: none;
     -webkit-background-size: 100% 1px;
-    background-size: 100% 1px;
+            background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-image: -webkit-linear-gradient(90deg, #ddd, #ddd 50%, transparent 50%);
@@ -430,10 +430,10 @@ h6 {
 .navigation-bar__right,
 .navigation-bar__center {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -674,10 +674,10 @@ h6 {
   font-weight: 400;
   font-size: 17px;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   white-space: nowrap;
   overflow: hidden;
   word-spacing: 0;
@@ -690,9 +690,9 @@ h6 {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   z-index: 2;
   display: block;
   height: 44px;
@@ -701,7 +701,7 @@ h6 {
   background: #fff;
   color: #1f1f21;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   font-weight: 400;
   border-bottom: none;
   border-top: 1px solid #ddd;
@@ -714,7 +714,7 @@ h6 {
   .bottom-bar {
     border-top: none;
     -webkit-background-size: 100% 1px;
-    background-size: 100% 1px;
+            background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top;
     background-image: -webkit-linear-gradient(270deg, #ddd, #ddd 50%, transparent 50%);
@@ -771,10 +771,10 @@ h6 {
   display: inline-block;
   vertical-align: top;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -789,9 +789,9 @@ h6 {
   font-size: 17px;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -806,24 +806,24 @@ h6 {
   background-color: rgba(24,103,194,0.81);
   border: 0px solid currentColor;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+          border-radius: 3px;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button:active {
   background-color: rgba(24,103,194,0.81);
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   opacity: 0.2;
 }
 .button:focus {
@@ -857,9 +857,9 @@ h6 {
 .button--outline:hover {
   border: 1px solid rgba(24,103,194,0.81);
   -webkit-transition: 0;
-  -moz-transition: 0;
-  -o-transition: 0;
-  transition: 0;
+     -moz-transition: 0;
+       -o-transition: 0;
+          transition: 0;
 }
 /* topdoc
   name: Light Button
@@ -892,10 +892,10 @@ h6 {
   display: inline-block;
   vertical-align: top;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -910,9 +910,9 @@ h6 {
   font-size: 17px;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -927,15 +927,15 @@ h6 {
   background-color: rgba(24,103,194,0.81);
   border: 0px solid currentColor;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+          border-radius: 3px;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   background: transparent;
   border: 1px solid transparent;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   background: transparent;
   color: rgba(24,103,194,0.81);
   border: none;
@@ -949,9 +949,9 @@ h6 {
 }
 .button--quiet:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button--quiet:focus {
   outline: 0;
@@ -960,9 +960,9 @@ h6 {
   background-color: transparent;
   border: none;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   opacity: 0.2;
   color: rgba(24,103,194,0.81);
 }
@@ -978,10 +978,10 @@ h6 {
   display: inline-block;
   vertical-align: top;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -996,9 +996,9 @@ h6 {
   font-size: 17px;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -1013,20 +1013,20 @@ h6 {
   background-color: rgba(24,103,194,0.81);
   border: 0px solid currentColor;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+          border-radius: 3px;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   border: none;
   background-color: #25a6d9;
   color: #fff;
 }
 .button--cta:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button--cta:focus {
   outline: 0;
@@ -1035,9 +1035,9 @@ h6 {
   color: var-button-cat-color;
   background-color: #25a6d9;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   opacity: 0.2;
 }
 .button--cta:disabled,
@@ -1065,14 +1065,14 @@ h6 {
 .button--large:active {
   background-color: rgba(24,103,194,0.81);
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   opacity: 0.2;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button--large:disabled,
 .button--large[disabled] {
@@ -1082,9 +1082,9 @@ h6 {
 }
 .button--large:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button--large:focus {
   outline: 0;
@@ -1100,10 +1100,10 @@ h6 {
   display: inline-block;
   vertical-align: top;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -1118,9 +1118,9 @@ h6 {
   font-size: 17px;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -1135,11 +1135,11 @@ h6 {
   background-color: rgba(24,103,194,0.81);
   border: 0px solid currentColor;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+          border-radius: 3px;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   font-size: 17px;
   font-weight: 500;
   line-height: 36px;
@@ -1149,21 +1149,21 @@ h6 {
   background: transparent;
   border: 1px solid transparent;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   color: rgba(24,103,194,0.81);
   text-align: center;
 }
 .button--large--quiet:active {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   opacity: 0.2;
   color: rgba(24,103,194,0.81);
   background: transparent;
   border: 1px solid transparent;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 .button--large--quiet:disabled,
 .button--large--quiet[disabled] {
@@ -1173,9 +1173,9 @@ h6 {
 }
 .button--large--quiet:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button--large--quiet:focus {
   outline: 0;
@@ -1191,10 +1191,10 @@ h6 {
   display: inline-block;
   vertical-align: top;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -1209,9 +1209,9 @@ h6 {
   font-size: 17px;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -1226,11 +1226,11 @@ h6 {
   background-color: rgba(24,103,194,0.81);
   border: 0px solid currentColor;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+          border-radius: 3px;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   border: none;
   background-color: #25a6d9;
   color: #fff;
@@ -1244,9 +1244,9 @@ h6 {
 }
 .button--large--cta:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button--large--cta:focus {
   outline: 0;
@@ -1255,9 +1255,9 @@ h6 {
   color: #fff;
   background-color: #25a6d9;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   opacity: 0.2;
 }
 .button--large--cta:disabled,
@@ -1308,7 +1308,7 @@ h6 {
   display: table-cell;
   width: auto;
   -webkit-border-radius: 0;
-  border-radius: 0;
+          border-radius: 0;
   position: relative;
   position: relative;
   overflow: hidden;
@@ -1339,16 +1339,16 @@ h6 {
   border-left: 1px solid rgba(18,114,224,0.77);
   border-right: 1px solid rgba(18,114,224,0.77);
   -webkit-border-top-left-radius: 4px;
-  border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
   -webkit-border-bottom-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
 }
 .button-bar__item:last-child > .button-bar__button {
   border-right: 1px solid rgba(18,114,224,0.77);
   -webkit-border-top-right-radius: 4px;
-  border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
   -webkit-border-bottom-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
 }
 .button-bar__button {
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
@@ -1357,7 +1357,7 @@ h6 {
   font-weight: 400;
   font-size: 17px;
   -webkit-border-radius: inherit;
-  border-radius: inherit;
+          border-radius: inherit;
   background-color: transparent;
   color: rgba(18,114,224,0.77);
   border: 0px solid rgba(18,114,224,0.77);
@@ -1371,12 +1371,12 @@ h6 {
   font-size: 13px;
   width: 100%;
   -webkit-transition: background-color 0.2s linear, color 0.2s linear;
-  -moz-transition: background-color 0.2s linear, color 0.2s linear;
-  -o-transition: background-color 0.2s linear, color 0.2s linear;
-  transition: background-color 0.2s linear, color 0.2s linear;
+     -moz-transition: background-color 0.2s linear, color 0.2s linear;
+       -o-transition: background-color 0.2s linear, color 0.2s linear;
+          transition: background-color 0.2s linear, color 0.2s linear;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .button-bar__button:active,
 :active + .button-bar__button {
@@ -1390,18 +1390,18 @@ h6 {
   font-size: 13px;
   width: 100%;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button-bar__item.active > .button-bar__button,
 :checked + .button-bar__button {
   background-color: rgba(18,114,224,0.77);
   color: #fff;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button-bar__button:disabled {
   opacity: 0.3;
@@ -1410,9 +1410,9 @@ h6 {
 }
 .button-bar__button:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .button-bar__button:focus {
   outline: 0;
@@ -1525,7 +1525,7 @@ h6 {
   .tab-bar {
     border-top: none;
     -webkit-background-size: 100% 1px;
-    background-size: 100% 1px;
+            background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top;
     background-image: -webkit-linear-gradient(270deg, rgba(0,0,0,0), rgba(0,0,0,0) 50%, transparent 50%);
@@ -1545,7 +1545,7 @@ h6 {
   display: table-cell;
   width: auto;
   -webkit-border-radius: 0;
-  border-radius: 0;
+          border-radius: 0;
 }
 .tab-bar__item > input {
   position: absolute;
@@ -1576,10 +1576,10 @@ h6 {
   font-weight: 400;
   font-size: 17px;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -1589,9 +1589,9 @@ h6 {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -1604,7 +1604,7 @@ h6 {
   vertical-align: top;
   background-color: transparent;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border-top: none;
   width: 100%;
   font-weight: 400;
@@ -1649,7 +1649,7 @@ h6 {
   color: #7abfff;
   background-color: transparent;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border-top: none;
 }
 :checked + .tab-bar__button > .tab-bar__icon {
@@ -1664,7 +1664,7 @@ h6 {
   z-index: 1;
   border-top: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   outline: 0;
 }
 .tab-bar__content {
@@ -1762,7 +1762,7 @@ h6 {
   .tab-bar--top {
     border-bottom: none;
     -webkit-background-size: 100% 1px;
-    background-size: 100% 1px;
+            background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0) 50%, transparent 50%);
@@ -1827,10 +1827,10 @@ h6 {
   display: inline-block;
   vertical-align: top;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -1845,9 +1845,9 @@ h6 {
   font-size: 17px;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -1856,7 +1856,7 @@ h6 {
   width: auto;
   height: 19px;
   -webkit-border-radius: 19px;
-  border-radius: 19px;
+          border-radius: 19px;
   background-color: #dc5236;
   color: #fff;
   text-align: center;
@@ -1900,14 +1900,14 @@ h6 {
   vertical-align: baseline;
   background-color: rgba(0,0,0,0);
   -webkit-border-radius: 2px;
-  border-radius: 2px;
+          border-radius: 2px;
   border: 1px solid transparent;
   font-weight: 400;
   font-size: 17px;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   vertical-align: middle;
 }
 .toolbar-button:active,
@@ -1915,9 +1915,9 @@ h6 {
 .toolbar-button--quiet:active {
   background-color: rgba(0,0,0,0);
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
   opacity: 0.2;
 }
 .toolbar-button:disabled,
@@ -1931,17 +1931,17 @@ h6 {
 .toolbar-button--quiet:focus {
   outline: 0;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .toolbar-button:hover,
 .toolbar-button--outline:hover,
 .toolbar-button--quiet:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .toolbar-button--outline {
   border: 1px solid rgba(38,100,171,0.81);
@@ -1980,9 +1980,9 @@ h6 {
   vertical-align: top;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1993,18 +1993,18 @@ h6 {
 }
 .checkbox > .checkbox__checkmark {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   position: relative;
   display: inline-block;
   vertical-align: top;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2050,34 +2050,34 @@ h6 {
   content: '';
   position: absolute;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   width: 24px;
   height: 24px;
   background: transparent;
   border: 1px solid rgba(24,103,194,0.81);
   -webkit-border-radius: 16px;
-  border-radius: 16px;
+          border-radius: 16px;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   left: 0;
 }
 .checkbox > .checkbox__checkmark {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   position: relative;
   display: inline-block;
   vertical-align: top;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2101,17 +2101,17 @@ h6 {
   border-top: none;
   border-right: none;
   -webkit-border-radius: 0px;
-  border-radius: 0px;
+          border-radius: 0px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   opacity: 0;
 }
 .checkbox > input[type="checkbox"]:focus + .checkbox__checkmark:before {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 .checkbox > input[type="checkbox"]:disabled + .checkbox__checkmark {
   opacity: 0.3;
@@ -2121,7 +2121,7 @@ h6 {
 .checkbox > input[type="checkbox"]:disabled:active + .checkbox__checkmark:before {
   background: transparent;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 /* topdoc
   name: No border Checkbox
@@ -2170,9 +2170,9 @@ h6 {
   vertical-align: top;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2189,14 +2189,14 @@ h6 {
   vertical-align: top;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   height: 24px;
   background: transparent;
 }
@@ -2236,7 +2236,7 @@ h6 {
   background: transparent;
   border: none;
   -webkit-border-radius: 16px;
-  border-radius: 16px;
+          border-radius: 16px;
   left: 0;
 }
 .checkbox--noborder > .checkbox__checkmark {
@@ -2245,14 +2245,14 @@ h6 {
   vertical-align: top;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   width: 24px;
   height: 24px;
   border: none;
@@ -2271,17 +2271,17 @@ h6 {
   border-top: none;
   border-right: none;
   -webkit-border-radius: 0px;
-  border-radius: 0px;
+          border-radius: 0px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .checkbox--noborder > input[type="checkbox"]:focus + .checkbox__checkmark:before {
   border: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 .checkbox--noborder > input[type="checkbox"]:disabled + .checkbox__checkmark {
   opacity: 0.3;
@@ -2291,7 +2291,7 @@ h6 {
 .checkbox--noborder > input[type="checkbox"]:disabled:active + .checkbox--noborder__checkmark:before {
   background: transparent;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border: none;
 }
 /* topdoc
@@ -2356,9 +2356,9 @@ h6 {
   vertical-align: top;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: relative;
   overflow: hidden;
   line-height: 24px;
@@ -2369,34 +2369,34 @@ h6 {
   content: '';
   position: absolute;
   -webkit-border-radius: 100%;
-  border-radius: 100%;
+          border-radius: 100%;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   width: 24px;
   height: 24px;
   background: transparent;
   border: none;
   -webkit-border-radius: 16px;
-  border-radius: 16px;
+          border-radius: 16px;
   left: 0;
 }
 .radio-button__checkmark {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   position: relative;
   display: inline-block;
   vertical-align: top;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2417,14 +2417,14 @@ h6 {
   content: '';
   position: absolute;
   -webkit-border-radius: 100%;
-  border-radius: 100%;
+          border-radius: 100%;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   top: 6px;
   left: 5px;
   opacity: 0;
@@ -2436,12 +2436,12 @@ h6 {
   border-top: none;
   border-right: none;
   -webkit-border-radius: 0px;
-  border-radius: 0px;
+          border-radius: 0px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .radio-button > input[type="radio"]:disabled + .radio-button__checkmark {
   opacity: 0.3;
@@ -2472,8 +2472,8 @@ h6 {
   text-align: left;
   display: block;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0 0 0 10px;
   font-size: 15px;
   font-weight: 500;
@@ -2489,7 +2489,7 @@ h6 {
   .list__header:first-child {
     border-top: none;
     -webkit-background-size: 100% 1px;
-    background-size: 100% 1px;
+            background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top;
     background-image: -webkit-linear-gradient(270deg, rgba(0,0,0,0), rgba(0,0,0,0) 50%, transparent 50%);
@@ -2508,9 +2508,9 @@ h6 {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2533,7 +2533,7 @@ h6 {
   .list {
     border: none;
     -webkit-background-size: 100% 1px, 100% 1px;
-    background-size: 100% 1px, 100% 1px;
+            background-size: 100% 1px, 100% 1px;
     background-repeat: no-repeat;
     background-position: bottom, top;
     background-image: -webkit-linear-gradient(90deg, #ddd, #ddd 50%, transparent 50%), -webkit-linear-gradient(270deg, #ddd, #ddd 50%, transparent 50%);
@@ -2548,8 +2548,8 @@ h6 {
   position: relative;
   list-style: none;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   display: block;
   padding: 0 10px 0 10px;
   margin: 0 0 0 0;
@@ -2570,9 +2570,9 @@ h6 {
 .list__item_active:active {
   background-color: #d9d9d9;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .list__item:first-child {
   border-top: none;
@@ -2589,7 +2589,7 @@ h6 {
   .list__item:not(:last-child) {
     border-bottom: none;
     -webkit-background-size: 100% 1px;
-    background-size: 100% 1px;
+            background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-image: -webkit-linear-gradient(90deg, #ddd, #ddd 50%, transparent 50%);
@@ -2651,22 +2651,22 @@ h6 {
  */
 .list__item--tappable {
   -webkit-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
+     -moz-transition: background-color 0.2s linear;
+       -o-transition: background-color 0.2s linear;
+          transition: background-color 0.2s linear;
 }
 .list__item--tappable:active {
   background-color: #d9d9d9;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .list__item--tappable:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 /* topdoc
   name: Switch in List Item
@@ -2711,23 +2711,23 @@ h6 {
  */
 .list__item--chevron {
   -webkit-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
+     -moz-transition: background-color 0.2s linear;
+       -o-transition: background-color 0.2s linear;
+          transition: background-color 0.2s linear;
   overflow: hidden;
 }
 .list__item--chevron:active {
   background-color: #d9d9d9;
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .list__item--chevron:hover {
   -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
 }
 .list__item--chevron:before {
   position: absolute;
@@ -2737,10 +2737,10 @@ h6 {
   line-height: 28px;
   height: 28px;
   -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
   font-size: 28px;
   font-family: FontAwesome;
   font-style: normal;
@@ -2765,7 +2765,7 @@ h6 {
   margin-right: 8px;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
   background-image: none;
 }
 .list--inset__item:not(:last-child) {
@@ -2918,10 +2918,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: none;
   line-height: normal;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   vertical-align: top;
   outline: none;
   line-height: 1;
@@ -2932,23 +2932,23 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   font-size: 17px;
   -webkit-appearance: none;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   height: 31px;
   font-size: 15px;
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   color: #1f1f21;
   padding: 4px 0 0 28px;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
   background-image: url("data:image/svg+xml;utf8,<svg width='41px' height='40px' viewBox='0 0 41 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>Slice 1</title><description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description><defs></defs><g id='Page 1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'><g id='search' fill='#C6C8C8'><path d='M0.504,16.338 C0.504,25.085 7.635,32.165 16.444,32.165 C25.24,32.165 32.382,25.085 32.382,16.338 C32.382,7.591 25.24,0.5 16.444,0.5 C7.635,0.5 0.504,7.591 0.504,16.338 L0.504,16.338 Z M5.555,16.338 C5.555,10.359 10.423,5.521 16.445,5.521 C22.455,5.521 27.333,10.36 27.333,16.338 C27.333,22.317 22.455,27.156 16.445,27.156 C10.423,27.156 5.555,22.316 5.555,16.338 L5.555,16.338 Z M27.666,30.861 L34.521,38.67 C35.625,39.772 36.338,39.781 37.46,38.67 L39.661,36.489 C40.743,35.408 40.811,34.711 39.661,33.568 L31.765,26.793 L27.666,30.861 L27.666,30.861 Z M27.666,30.861' id='Shape'></path></g></g></svg>");
   background-position: 8px center;
   background-repeat: no-repeat;
-  -webkit-background-size: 17px;
-  background-size: 17px;
+  -webkit-background-size: 17px 17px;
+          background-size: 17px;
   font-weight: 400;
   display: block;
   width: 100%;
@@ -2958,7 +2958,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   color: #1f1f21;
   border: 1px solid #ddd;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 .search-input::-webkit-search-cancel-button,
 .search-input::-webkit-search-decoration {
@@ -2995,10 +2995,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: none;
   line-height: normal;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   vertical-align: top;
   outline: none;
   line-height: 1;
@@ -3010,10 +3010,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   letter-spacing: 0;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
   background-color: #f9f9f9;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   color: #1f1f21;
   padding: 4px 8px 0 8px;
   margin: 0;
@@ -3021,8 +3021,8 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   height: 31px;
   font-weight: 400;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .text-input::-webkit-input-placeholder,
 .text-input::-moz-placeholder,
@@ -3060,10 +3060,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: none;
   line-height: normal;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   vertical-align: top;
   outline: none;
   line-height: 1;
@@ -3075,10 +3075,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   letter-spacing: 0;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
   background-color: #f9f9f9;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   color: #1f1f21;
   padding: 4px 8px 0 8px;
   margin: 0;
@@ -3086,8 +3086,8 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   height: 31px;
   font-weight: 400;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   border: none;
   background-color: transparent;
   padding-left: 0;
@@ -3130,10 +3130,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: none;
   line-height: normal;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   vertical-align: top;
   outline: none;
   line-height: 1;
@@ -3145,10 +3145,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   letter-spacing: 0;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
   background-color: #f9f9f9;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   color: #1f1f21;
   padding: 4px 8px 0 8px;
   margin: 0;
@@ -3156,13 +3156,13 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   height: 31px;
   font-weight: 400;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   border: none;
   background-color: transparent;
   border-bottom: 1px solid #ddd;
   -webkit-border-radius: 0px;
-  border-radius: 0px;
+          border-radius: 0px;
 }
 .text-input--underbar:disabled {
   opacity: 0.3;
@@ -3197,10 +3197,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 */
 .textarea {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -3220,13 +3220,13 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   font-size: 15px;
   font-weight: 400;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   color: #1f1f21;
   letter-spacing: 0;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   -webkit-appearance: none;
 }
 .textarea:disabled {
@@ -3250,10 +3250,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 */
 .textarea--transparent {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -3275,13 +3275,13 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   font-size: 15px;
   font-weight: 400;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
   border: none;
   background-color: transparent;
   color: #1f1f21;
   letter-spacing: 0;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   -webkit-appearance: none;
 }
 .textarea--transparent:disabled {
@@ -3307,10 +3307,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 */
 .dialog {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -3320,9 +3320,9 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3332,20 +3332,20 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   margin: auto auto;
   background-color: rgba(255,255,255,0.92);
   -webkit-box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+          box-shadow: 0 2px 12px rgba(0,0,0,0.07);
   overflow: hidden;
   min-width: 270px;
   min-height: 100px;
   text-align: left;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+          border-radius: 4px;
 }
 .dialog-mask {
   padding: 0;
@@ -3357,9 +3357,9 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -3387,10 +3387,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 */
 .alert-dialog {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -3400,9 +3400,9 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3412,17 +3412,17 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 270px;
   margin: auto auto;
   background-color: rgba(255,255,255,0.92);
   -webkit-box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+          box-shadow: 0 2px 12px rgba(0,0,0,0.07);
   -webkit-border-radius: 8px;
-  border-radius: 8px;
+          border-radius: 8px;
   overflow: hidden;
   padding: 16px 0 0 0;
   max-width: 95%;
@@ -3442,10 +3442,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 }
 .alert-dialog-content {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 4px 12px 8px 12px;
   font-size: 14px;
   min-height: 36px;
@@ -3457,10 +3457,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 }
 .alert-dialog-button {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -3475,9 +3475,9 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   font-size: 17px;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -3502,7 +3502,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   .alert-dialog-button {
     border-top: none;
     -webkit-background-size: 100% 1px;
-    background-size: 100% 1px;
+            background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top;
     background-image: -webkit-linear-gradient(270deg, #ddd, #ddd 50%, transparent 50%);
@@ -3526,8 +3526,8 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .alert-dialog-button--one {
   -webkit-box-flex: 1;
@@ -3545,7 +3545,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
     border-top: none;
     border-left: none;
     -webkit-background-size: 100% 1px, 1px 100%;
-    background-size: 100% 1px, 1px 100%;
+            background-size: 100% 1px, 1px 100%;
     background-repeat: no-repeat;
     background-position: top, left;
     background-image: -webkit-linear-gradient(90deg, transparent, transparent 50%, #ddd 50%), -webkit-linear-gradient(0deg, transparent, transparent 50%, #ddd 50%);
@@ -3561,7 +3561,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   .alert-dialog-button--one:first-child {
     border-top: none;
     -webkit-background-size: 100% 1px;
-    background-size: 100% 1px;
+            background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top, left;
     background-image: -webkit-linear-gradient(90deg, transparent, transparent 50%, #ddd 50%);
@@ -3580,9 +3580,9 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -3667,10 +3667,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 */
 .alert-dialog--android {
   -webkit-border-radius: 2px;
-  border-radius: 2px;
+          border-radius: 2px;
   padding: 0;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 .alert-dialog-title--android {
   border-bottom: 1px solid #ddd;
@@ -3706,10 +3706,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 }
 .popover {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   padding: 0;
   margin: 0;
   font: inherit;
@@ -3719,9 +3719,9 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   line-height: normal;
   cursor: default;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3734,9 +3734,9 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 .popover__content {
   background-color: #fff;
   -webkit-border-radius: 8px;
-  border-radius: 8px;
+          border-radius: 8px;
   -webkit-box-shadow: 0 2px 16px rgba(0,0,0,0.1);
-  box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+          box-shadow: 0 2px 16px rgba(0,0,0,0.1);
   color: #1f1f21;
   overflow: hidden;
   min-height: 100px;
@@ -3751,22 +3751,22 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   width: 18px;
   height: 18px;
   -webkit-transform-origin: 50% 50% 0;
-  -moz-transform-origin: 50% 50% 0;
-  -ms-transform-origin: 50% 50% 0;
-  -o-transform-origin: 50% 50% 0;
-  transform-origin: 50% 50% 0;
+     -moz-transform-origin: 50% 50% 0;
+      -ms-transform-origin: 50% 50% 0;
+       -o-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
   background-color: transparent;
   background-image: -webkit-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: -moz-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: -o-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   -webkit-border-radius: 0 0 0 4px;
-  border-radius: 0 0 0 4px;
+          border-radius: 0 0 0 4px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   bottom: 0;
   left: 50%;
   margin-left: -9px;
@@ -3778,22 +3778,22 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   width: 18px;
   height: 18px;
   -webkit-transform-origin: 50% 50% 0;
-  -moz-transform-origin: 50% 50% 0;
-  -ms-transform-origin: 50% 50% 0;
-  -o-transform-origin: 50% 50% 0;
-  transform-origin: 50% 50% 0;
+     -moz-transform-origin: 50% 50% 0;
+      -ms-transform-origin: 50% 50% 0;
+       -o-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
   background-color: transparent;
   background-image: -webkit-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: -moz-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: -o-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   -webkit-border-radius: 0 0 0 4px;
-  border-radius: 0 0 0 4px;
+          border-radius: 0 0 0 4px;
   -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
+     -moz-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+       -o-transform: rotate(135deg);
+          transform: rotate(135deg);
   top: 0;
   left: 50%;
   margin-left: -9px;
@@ -3805,22 +3805,22 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   width: 18px;
   height: 18px;
   -webkit-transform-origin: 50% 50% 0;
-  -moz-transform-origin: 50% 50% 0;
-  -ms-transform-origin: 50% 50% 0;
-  -o-transform-origin: 50% 50% 0;
-  transform-origin: 50% 50% 0;
+     -moz-transform-origin: 50% 50% 0;
+      -ms-transform-origin: 50% 50% 0;
+       -o-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
   background-color: transparent;
   background-image: -webkit-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: -moz-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: -o-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   -webkit-border-radius: 0 0 0 4px;
-  border-radius: 0 0 0 4px;
+          border-radius: 0 0 0 4px;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
   top: 50%;
   left: 0;
   margin-left: -9px;
@@ -3832,22 +3832,22 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   width: 18px;
   height: 18px;
   -webkit-transform-origin: 50% 50% 0;
-  -moz-transform-origin: 50% 50% 0;
-  -ms-transform-origin: 50% 50% 0;
-  -o-transform-origin: 50% 50% 0;
-  transform-origin: 50% 50% 0;
+     -moz-transform-origin: 50% 50% 0;
+      -ms-transform-origin: 50% 50% 0;
+       -o-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
   background-color: transparent;
   background-image: -webkit-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: -moz-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: -o-linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   background-image: linear-gradient(45deg, #fff, #fff 50%, transparent 50%);
   -webkit-border-radius: 0 0 0 4px;
-  border-radius: 0 0 0 4px;
+          border-radius: 0 0 0 4px;
   -webkit-transform: rotate(225deg);
-  -moz-transform: rotate(225deg);
-  -ms-transform: rotate(225deg);
-  -o-transform: rotate(225deg);
-  transform: rotate(225deg);
+     -moz-transform: rotate(225deg);
+      -ms-transform: rotate(225deg);
+       -o-transform: rotate(225deg);
+          transform: rotate(225deg);
   top: 50%;
   right: 0;
   margin-right: -9px;
@@ -3902,7 +3902,7 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 */
 .popover__content--android {
   -webkit-border-radius: 2px;
-  border-radius: 2px;
+          border-radius: 2px;
 }
 /* topdoc
   name: Modal
@@ -3916,10 +3916,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 */
 .modal {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   white-space: nowrap;
   overflow: hidden;
   word-spacing: 0;
@@ -3931,10 +3931,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: none;
   line-height: normal;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3954,10 +3954,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
 }
 .modal__content {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   white-space: nowrap;
   overflow: hidden;
   word-spacing: 0;
@@ -3969,10 +3969,10 @@ input[type="search"].search-input::-webkit-search-cancel-button {
   border: none;
   line-height: normal;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+          background-clip: padding-box;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
